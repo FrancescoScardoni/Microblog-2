@@ -1,0 +1,41 @@
+body
+{
+    background-color: #fefbd8 ;
+    font-family: Arial;
+    margin: auto; 
+    color: black;
+    min-width: 600px;
+}
+
+
+div.content
+{
+    margin: auto;
+    width: 65%;
+    padding: 0%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+
+div.options
+{
+    background-color: teal;
+    width: 75%;
+    position: fixed;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+}
+
+
+div.title
+{
+
+    background-color: #4d88ff;
+    color: white;
+
+    text-align: center;
+}
